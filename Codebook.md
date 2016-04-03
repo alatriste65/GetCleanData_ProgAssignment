@@ -23,11 +23,11 @@
 
 *x_dat:  (1) It is the result of merging (or appending) the measurement values of the training and test set, that is, objects "x_test" and "x_train".
 
-*	 (2) It is the result of subsetting the original "x_dat" object by keeping only the mean and standard deviation measurements. Variables are labeled using the names available in "features".
+*x_dat:	 (2) It is the result of subsetting the original "x_dat" object by keeping only the mean and standard deviation measurements. Variables are labeled using the names available in "features".
 
 *y_dat:  (1) It is the result of merging (or appending) the activity values of the training and test set, that is, objects "y_test" and "y_train".
 
-*	 (2) Update of variable y_dat. The original variable is turned into a factor variable; level and corresponding labels are specified using "activities".
+*y_dat:	 (2) Update of variable y_dat. The original variable is turned into a factor variable; level and corresponding labels are specified using "activities".
 
 *subject_dat: it is the result of merging (or appending) the subject values of the training and test set, that is, objects "subject_test" and "subject_train".
 
